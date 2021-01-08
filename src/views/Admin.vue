@@ -15,7 +15,7 @@
                             <img class="img-responsive img-rounded" src="img/user.png" alt="User picture">
                         </div>
                         <div class="user-info">
-                            <span class="user-name"><strong>Admin Panel</strong></span>
+                            <span class="user-name"><strong>Super Admin Panel</strong></span>
                             <!-- <span class="user-role">Administrator</span> -->
                             <span class="user-role">{{email}}</span>
                             <span class="user-status">
@@ -52,12 +52,12 @@
                             <li>
                                 <router-link to="/admin/profile">
                                     <i class="fa fa-user"></i>
-                                    <span class="menu-text">Fellows</span>
+                                    <span class="menu-text">Profiles</span>
                                 </router-link>
                             </li>
                             <li>
                                 <router-link to="/admin/iot">
-                                    <i class="fab fa-amazon"></i>
+                                    <i class="fa fa-wrench"></i>
                                     <span class="menu-text">IoT</span>
                                 </router-link>
                             </li>

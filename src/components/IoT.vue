@@ -3,20 +3,20 @@
 
         <div class="container">
             <div class="intro h-100">
-                <!-- <div class="row h-100 justify-content-center align-items-center">
+                <div class="row h-100 justify-content-center align-items-center">
                     <div class="col-md-6">
-                        <h3>Products Page</h3>
+                        <h3>Mini IoT Lab</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos numquam tempora, iure delectus
                             totam minus quam aperiam ratione dolores magni voluptates ut necessitatibus odio ipsum fuga,
                             voluptas ab praesentium nihil?</p>
                     </div>
                     <div class="col-md-6 mt-5">
-                        <img src="/img/svg/products.svg" alt="" class="img-fluid">
+                        <img src="/img/svg/component.svg" alt="" class="img-fluid">
                     </div>
-                </div> -->
+                </div>
             </div>
             <div class="my-5">
-                <!-- <hr> -->
+                <hr>
             </div>
 
             <div class="product-test mb-5">
@@ -29,6 +29,7 @@
                             <tr>
                                 <th>Name</th>
                                 <th>Price</th>
+                                <th>Quantity</th>
                                 <th>Tags</th>
                                 <th>Image</th>
                                 <th>Modify</th>
@@ -37,7 +38,8 @@
                         <tbody>
                             <tr v-for="component in components">
                                 <td>{{component.name}}</td>
-                                <td>{{component.price}}</td>
+                                <td>₹ {{component.price}}</td>
+                                <td>{{component.qty}}</td>
                                 <td>
                                     <span v-for="tag in component.tags">{{tag}} </span>
                                 </td>
@@ -46,7 +48,7 @@
                                             alt=""></span>
                                 </td>
                                 <td>
-                                    <button class="btn btn-primary" @click="editProduct(component)">Edit Component</button>
+                                    <button class="btn btn-primary" @click="editProduct(component)">Edit</button>
                                     <button class="btn btn-danger ml-3" @click="deleteProduct(component)">Delete</button>
                                 </td>
                             </tr>

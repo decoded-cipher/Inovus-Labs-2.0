@@ -5,7 +5,7 @@
             <div class="intro h-100">
                 <div class="row h-100 justify-content-center align-items-center">
                     <div class="col-md-6">
-                        <h3>Profile Page</h3>
+                        <h3>User Profiles</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos numquam tempora, iure delectus
                             totam minus quam aperiam ratione dolores magni voluptates ut necessitatibus odio ipsum fuga,
                             voluptas ab praesentium nihil?</p>
